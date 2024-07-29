@@ -1,4 +1,4 @@
-from src.utils import modulo 
+from utils import modulo 
 def test_modulo():
     a = 9
     b = 4
