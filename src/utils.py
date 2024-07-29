@@ -75,7 +75,7 @@ def element_wise_multiply(a: np.array, b: np.array) -> np.array:
         c = np.multiply(a, b)
     except Exception as error:
     # handle the exception
-        print("An exception occurred:", error) # An exception occurred: division by zero 
+        print("Please check the shape of your array:", error) # An exception occurred: Most probably size mismatch of the array.
 
     # let's hope that both vectors have the same shape
 
