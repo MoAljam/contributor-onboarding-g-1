@@ -76,7 +76,7 @@ def element_wise_multiply(a: np.array, b: np.array) -> np.array:
 
     return np.multiply(a, b)
 
-def return_hexadecimal(a: int) -> float:
+def return_hexadecimal(a: int) -> str:
     '''
     ...
 
