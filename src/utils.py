@@ -71,10 +71,15 @@ def element_wise_multiply(a: np.array, b: np.array) -> np.array:
     Returns:
     np.array
     '''
+    try: 
+        c = np.multiply(a, b)
+    except Exception as error:
+    # handle the exception
+        print("Please check the shape of your array:", error) # An exception occurred: Most probably size mismatch of the array.
 
     # let's hope that both vectors have the same shape
 
-    return np.multiply(a, b)
+    return c
 
 def return_hexadecimal(a: int) -> float:
     '''
