@@ -1,4 +1,4 @@
-from src.utils import sum
+from utils import sum
 
 def test_sum():
     a = 3
