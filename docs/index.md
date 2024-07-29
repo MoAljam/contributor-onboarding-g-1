@@ -147,9 +147,9 @@ python3.9 -m venv .venv
 ```
 4. Activate the virtual environment:
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
-5. You should see `(venv)` in your terminal prompt, indicating that the virtual environment is active.
+5. You should see `(.venv)` in your terminal prompt, indicating that the virtual environment is active.
 6. Upgrade pip
 ```bash
 pip install --upgrade pip
