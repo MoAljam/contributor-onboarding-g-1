@@ -143,7 +143,7 @@ Here, we will create a virtual environment for the project in Python.
 2. Navigate to the directory where you cloned the repository.
 3. Run the following command to create a virtual environment:
 ```bash
-python3.9 -m venv venv
+python3.9 -m venv .venv
 ```
 4. Activate the virtual environment:
 ```bash
